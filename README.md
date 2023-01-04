@@ -5,23 +5,24 @@
  - Read the contents in the slide deck before using the following colab notebooks.
  
  ## Colab Notebooks
- 1. **The Fuel: Tensors**
+ 1. **The Fuel:** [Tensors](https://colab.research.google.com/drive/179Gv23AcUDCOhHt82msbstQZrbzS6Qn4?usp=sharing)
     - Understand the Pytorch architecture
     - Create Tensors of 0d,1d,2d,3d,... (a multidomensional array in numpy)
     - Understand the attributes : `storage, stride, offset, device`
     - Manipulate tensor dimensions
     - Operations on tensors
- 2. **The Engine: Autograd**
+ 2. **The Engine:** [Autograd](https://colab.research.google.com/drive/12h5SZ0FaZXUYzEP5DM2GTIg2KIeFfiG4?usp=sharing)
     - A few more attributes of tensor : `requires_grad, grad, grad_fn, _saved_tensors, backward, retain_grad, zero_grad`
     - Computation gradph: Leaf node (parameters) vs non-leaf node (intermediate computation)
     - Accumulate gradient and update with context manager (torch.no_grad)
     - Implementating a neural network from scratch
     
     
- 3. **The factory: nn.Module**
+ 3. **The factory:** [nn.Module](https://colab.research.google.com/drive/1bz87qDYbidxskT6pkxJ-pRaF39qFteMv?usp=sharing)
     - Brief tour into the source code of nn.Module 
     - Everything is a module (layer in other frameworks)
     - Stack modules by subclassing nn.Module and build any neural network
+  [Data Utils](https://colab.research.google.com/drive/1A9D0wzQ93Bl06cpAYhFvYO2cGe8sasof?usp=sharing)
     - Managing data with `dataset` class and `DataLoader` class
     
  4. **Convolutional Neural Netowrk**
