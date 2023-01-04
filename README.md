@@ -3,7 +3,7 @@
   
  - You can access the slide deck here <a href=https://iitm-pod.slides.com/arunprakash_ai/pytorch> https://iitm-pod.slides.com/arunprakash_ai/pytorch </a>
  - Read the contents in the slide deck before using the following colab notebooks.
- 
+ - I strongly believe that once you get a good grip on the first four modules, you can refer to documenetation or others code easily. I will keep updating this repository.
  ## Colab Notebooks
  1. **The Fuel:** [Tensors](https://colab.research.google.com/drive/179Gv23AcUDCOhHt82msbstQZrbzS6Qn4?usp=sharing)
     - Understand the Pytorch architecture
