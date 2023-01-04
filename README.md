@@ -18,11 +18,10 @@
     - Implementating a neural network from scratch
     
     
- 3. **The factory:** [nn.Module](https://colab.research.google.com/drive/1bz87qDYbidxskT6pkxJ-pRaF39qFteMv?usp=sharing)
+ 3. **The factory:** [nn.Module](https://colab.research.google.com/drive/1bz87qDYbidxskT6pkxJ-pRaF39qFteMv?usp=sharing), [Data Utils](https://colab.research.google.com/drive/1A9D0wzQ93Bl06cpAYhFvYO2cGe8sasof?usp=sharing)
     - Brief tour into the source code of nn.Module 
     - Everything is a module (layer in other frameworks)
-    - Stack modules by subclassing nn.Module and build any neural network
-  [Data Utils](https://colab.research.google.com/drive/1A9D0wzQ93Bl06cpAYhFvYO2cGe8sasof?usp=sharing)
+    - Stack modules by subclassing nn.Module and build any neural network   
     - Managing data with `dataset` class and `DataLoader` class
     
  4. **Convolutional Neural Netowrk**
