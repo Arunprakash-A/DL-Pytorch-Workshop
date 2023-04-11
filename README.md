@@ -24,7 +24,7 @@
     - Stack modules by subclassing nn.Module and build any neural network   
     - Managing data with `dataset` class and `DataLoader` class
     
- 4. **Convolutional Neural Netowrk**
+ 4. **Convolutional Neural Netowrk**[torchvision](https://colab.research.google.com/drive/1M9ha7mZ-42UKUFZGee5QeKHbdNoo3U51?usp=sharing)
     - Using torchvision for datasets
     - build CNN and move it to GPU
     - Train and test
