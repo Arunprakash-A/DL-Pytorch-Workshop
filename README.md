@@ -31,4 +31,11 @@
     - Transfer learning
     - Image segmentation
 
+
+5. ** Recurrent Neural Network** [Sequence classification](https://colab.research.google.com/drive/1OAraEdQfr_rhXGeANZ83v5gJ4Kt14aAr?usp=sharing)
+    - torchdata
+    - torchtext
+    - Embedding for words
+    - Build RNN
+    - Train,test, infer
  
