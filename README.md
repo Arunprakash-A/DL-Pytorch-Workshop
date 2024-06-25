@@ -1,10 +1,13 @@
 # Deep Learning Workshop using Pytorch 1.3 and above
 
+* UPDATE: Added Hugging Face Notebooks. HF is an additional layer on the Pytorch (and Tensorflow). It does a lot of Heavy lifting and makes our job of building prototypes (trai-test-infer-host) a lot easier!
+
   
- - You can access the slide deck here <a href=https://iitm-pod.slides.com/arunprakash_ai/pytorch> https://iitm-pod.slides.com/arunprakash_ai/pytorch </a>
- - You should read the contents in the slide deck before using the following colab notebooks.
- - Once you get a good grip on the first four modules, you can easily walk through the documenetation or other code to build an application. I will keep updating this repository.
- - [Recorded videos](https://drive.google.com/drive/folders/1o6AS8QE0xHpLS99kMlnDfzQp3VIrsQ1p?usp=sharing) (log in using IITM student email id to access the folder).
+ - You can access the slide deck that covers Pytorch here <a href=https://iitm-pod.slides.com/arunprakash_ai/pytorch> https://iitm-pod.slides.com/arunprakash_ai/pytorch </a>
+ - You can access the slide deck that covers various concepts related to Transformers [Here](https://iitm-pod.slides.com/arunprakash_ai/transformers-distilled-hf-workshop-iitmbs) </a>
+ - You should read the contents in the slide decks before using the following colab notebooks.
+ - Once you get a good grip on the first four modules, you can easily walk through the documentation or other code to build an application. I will keep updating this repository.
+ - [Recorded videos](https://drive.google.com/drive/folders/1o6AS8QE0xHpLS99kMlnDfzQp3VIrsQ1p?usp=sharing) 
  ## Colab Notebooks
  1. **The Fuel:** [Tensors](https://colab.research.google.com/drive/179Gv23AcUDCOhHt82msbstQZrbzS6Qn4?usp=sharing)
     - Understand the Pytorch architecture
@@ -39,4 +42,8 @@
     - Embedding for words
     - Build RNN
     - Train,test, infer
+  
+6. **Using pre-trained models from Hugging Face**[Two Core Modules of HF](https://drive.google.com/file/d/1dAPaHzqLrRWsF4lAq9ydtKAK5F81zlIm/view?usp=sharing)
+     - Tokenizer (AutoTokenizer)
+     - Transformers (AutoModel)
  
