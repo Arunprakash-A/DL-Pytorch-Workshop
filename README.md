@@ -46,4 +46,9 @@
 6. **Using pre-trained models from Hugging Face**[Two Core Modules of HF](https://drive.google.com/file/d/1dAPaHzqLrRWsF4lAq9ydtKAK5F81zlIm/view?usp=sharing)
      - Tokenizer (AutoTokenizer)
      - Transformers (AutoModel)
+7. **Fine Tuning Pre-Trained Model** [Notebook](https://colab.research.google.com/drive/1ccfdwR6Olvgh2-sm8BeqQeUdp-itKoYX?usp=sharing)
+     -  datasets
+     -  tokenizer
+     -  data collator with padding
+     -  Trainer
  
