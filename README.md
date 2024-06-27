@@ -51,4 +51,13 @@
      -  tokenizer
      -  data collator with padding
      -  Trainer
- 
+8. **Loading Datasets** [Notebook]
+     - Dataset from local data files
+     - Dataset from Hub
+     - Preprocessing the dataset : Slice, Select, map, filter, flatten, interleave, concatenate
+     - Loading from external links
+9. **Build a Custom Tokenizer** [Notebook]
+     - Translation dataset as running example
+     - Building componetns of tokenizer: Normalizer, pre-tokenizer, tokenization algorithm (BPE)
+     - Locally Store and Load custom tokenizer
+     - Using it in AutoTokenizer from Transformer module
