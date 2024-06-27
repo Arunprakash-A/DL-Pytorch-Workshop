@@ -43,21 +43,21 @@
     - Build RNN
     - Train,test, infer
   
-6. **Using pre-trained models from Hugging Face**[Two Core Modules of HF](https://drive.google.com/file/d/1dAPaHzqLrRWsF4lAq9ydtKAK5F81zlIm/view?usp=sharing)
-     - Tokenizer (AutoTokenizer)
-     - Transformers (AutoModel)
-7. **Fine Tuning Pre-Trained Model** [Notebook](https://colab.research.google.com/drive/1ccfdwR6Olvgh2-sm8BeqQeUdp-itKoYX?usp=sharing)
+6. **Using pre-trained models** [Notebook](https://drive.google.com/file/d/1dAPaHzqLrRWsF4lAq9ydtKAK5F81zlIm/view?usp=sharing)     
+     - AutoTokenizer
+     - AutoModel
+7. **Fine-Tuning Pre-Trained Models** [Notebook](https://colab.research.google.com/drive/1ccfdwR6Olvgh2-sm8BeqQeUdp-itKoYX?usp=sharing)
      -  datasets
      -  tokenizer
      -  data collator with padding
      -  Trainer
-8. **Loading Datasets** [Notebook]
+8. **Loading Datasets** [Notebook](https://colab.research.google.com/drive/16U91dlO9CawJUCdqzSbaKjDgusuBGcJF?usp=sharing)
      - Dataset from local data files
      - Dataset from Hub
-     - Preprocessing the dataset : Slice, Select, map, filter, flatten, interleave, concatenate
+     - Preprocessing the dataset: Slice, Select, map, filter, flatten, interleave, concatenate
      - Loading from external links
 9. **Build a Custom Tokenizer** [Notebook]
      - Translation dataset as running example
-     - Building componetns of tokenizer: Normalizer, pre-tokenizer, tokenization algorithm (BPE)
+     - Building components of tokenizer: Normalizer, pre-tokenizer, tokenization algorithm (BPE)
      - Locally Store and Load custom tokenizer
-     - Using it in AutoTokenizer from Transformer module
+     - Using it in AutoTokenizer from the Transformer module
