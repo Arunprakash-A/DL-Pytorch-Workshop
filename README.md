@@ -1,6 +1,6 @@
 # Deep Learning Workshop using Pytorch 1.3 and above
 
-* UPDATE: Added Hugging Face Notebooks. HF is an additional layer on the Pytorch (and Tensorflow). It does a lot of Heavy lifting and makes our job of building prototypes (trai-test-infer-host) a lot easier!
+* UPDATE: Added Hugging Face Notebooks. HF Transformer module is built on top of Pytorch (and Tensorflow). It does a lot of Heavy lifting and makes our job of building prototypes (trai-test-infer-host) a lot easier!
 
   
  - You can access the slide deck that covers Pytorch here <a href=https://iitm-pod.slides.com/arunprakash_ai/pytorch> https://iitm-pod.slides.com/arunprakash_ai/pytorch </a>
