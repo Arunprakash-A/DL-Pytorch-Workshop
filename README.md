@@ -56,8 +56,8 @@
      - Dataset from Hub
      - Preprocessing the dataset: Slice, Select, map, filter, flatten, interleave, concatenate
      - Loading from external links
-9. **Build a Custom Tokenizer** [Notebook]
+9. **Build a Custom Tokenizer** [Notebook](https://colab.research.google.com/drive/1YizCe9z6GzCkoWkfSp9HHFo51T5hY-uh?usp=sharing)
      - Translation dataset as running example
-     - Building components of tokenizer: Normalizer, pre-tokenizer, tokenization algorithm (BPE)
-     - Locally Store and Load custom tokenizer
-     - Using it in AutoTokenizer from the Transformer module
+     - Building the tokenizer by encapsulating the Normalizer, pre-tokenizer and tokenization algorithm (BPE)
+     - Locally Save and Load the tokenizer
+     - Using it in the Transformer module
