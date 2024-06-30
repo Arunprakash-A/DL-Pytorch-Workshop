@@ -3,7 +3,7 @@
 * **UPDATE:** Added Hugging Face Notebooks. HF Transformer module is built on top of Pytorch (and Tensorflow). It does a lot of Heavy lifting and makes our job of building prototypes (trai-test-infer-host) a lot easier!
 
   
- - You can access the slide deck that covers Pytorch [Here](https://iitm-pod.slides.com/arunprakash_ai/pytorch> https://iitm-pod.slides.com/arunprakash_ai/pytorch)
+ - You can access the slide deck that covers Pytorch [Here](https://iitm-pod.slides.com/arunprakash_ai/pytorch)
  - You can access the slide deck that covers various concepts related to Transformers [Here](https://iitm-pod.slides.com/arunprakash_ai/transformers-distilled-hf-workshop-iitmbs)
  - It is recommended to read the slide decks before using the following colab notebooks 
  - Once you get a good grip on the first four modules, you can easily walk through the documentation or other code to build an application. I will keep updating this repository.
