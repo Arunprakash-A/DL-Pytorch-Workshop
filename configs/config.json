@@ -1,0 +1,16 @@
+{
+  "architectures": [
+    "TransformerModel"
+  ],
+  "batch_first": true,
+  "d_model": 512,
+  "dim_feedforward": 2048,
+  "dropout": 0.1,
+  "model_type": "vanilla_transformer",
+  "nhead": 8,
+  "num_decoder_layers": 6,
+  "num_encoder_layers": 6,
+  "torch_dtype": "float32",
+  "transformers_version": "4.41.2",
+  "vocab_size": 11000
+}
