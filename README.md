@@ -1,8 +1,5 @@
 # Deep Learning with Pytorch and Hugging Face
 
-* **UPDATE:** Added Hugging Face Notebooks. HF Transformer module is built on top of Pytorch (and Tensorflow). It does a lot of Heavy lifting and makes our job of building prototypes (trai-test-infer-host) a lot easier!
-
-  
  - You can access the slide deck that covers Pytorch [Here](https://iitm-pod.slides.com/arunprakash_ai/pytorch)
  - You can access the slide deck that covers various concepts related to Transformers [Here](https://iitm-pod.slides.com/arunprakash_ai/transformers-distilled-hf-workshop-iitmbs)
  - It is recommended to read the slide decks before using the following colab notebooks 
@@ -70,13 +67,15 @@
      - Building the tokenizer by encapsulating the Normalizer, pre-tokenizer and tokenization algorithm (BPE)
      - Locally Save and Load the tokenizer
      - Using it in the Transformer module
-     - Exercise: Build Tokenizer with shared vocabulary.
+     - Exercise: Build a Tokenizer with shared vocabulary.
 10. **Training Custom Seq2Seq model  using Vanilla Transformer Architecture** [Notebook](https://colab.research.google.com/drive/1MbUDJup6i1MgXimMfo1mLeWpsH7nK-_K?usp=sharing)
      - **Difficulty Level:** Medium, if you know how to build models in PyTorch.
      - Build Vanilla Transformer architecture in Pytorch
-     - Create configuration file for model using __PretrainedConfig__ class
+     - Create a configuration file for a model using __PretrainedConfig__ class
      - Wrap it by HF __PreTrainedModel__ class
      - Use the custom tokenizer built in the previous notebook
      - Use Trainer API to train the model
 11. **Upload it to Hub** [Notebook]
      - Under Preparation
+     
+**UPDATE:** Added Hugging Face Notebooks. If you plan to use Transformer Architecture for any task, HF is the way to go! The Transformer module is built on top of Pytorch (and Tensorflow) to do a lot of heavy lifting!
