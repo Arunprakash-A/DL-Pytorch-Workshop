@@ -10,14 +10,14 @@
  - [Recorded videos](https://drive.google.com/drive/folders/1o6AS8QE0xHpLS99kMlnDfzQp3VIrsQ1p?usp=sharing) 
  ## Colab Notebooks
  1. **The Fuel:** [Tensors](https://colab.research.google.com/drive/179Gv23AcUDCOhHt82msbstQZrbzS6Qn4?usp=sharing)
-    - **Difficulty Level:** Easy if you have a prior experience using Numpy or TensorFlow
+    - **Difficulty Level:** Easy if you have prior experience using Numpy or TensorFlow
     - Understand the Pytorch architecture
     - Create Tensors of 0d,1d,2d,3d,... (a multidimensional array in numpy)
     - Understand the attributes: `storage, stride, offset, device`
     - Manipulate tensor dimensions
     - Operations on tensors
  2. **The Engine:** [Autograd](https://colab.research.google.com/drive/12h5SZ0FaZXUYzEP5DM2GTIg2KIeFfiG4?usp=sharing)
-    -  **Difficulty Level:** Hard, requires a good understanding of backprop algorithm. However, it doesn't stop you from building models
+    -  **Difficulty Level:** Hard, requires a good understanding of backprop algorithm. However, you can skip this and still follow the subsequent notebooks easily.
     - A few more attributes of tensor : `requires_grad, grad, grad_fn, _saved_tensors, backward, retain_grad, zero_grad`
     - Computation graph: Leaf node (parameters) vs non-leaf node (intermediate computation)
     - Accumulate gradient and update with context manager (torch.no_grad)
