@@ -75,7 +75,11 @@
      - Wrap it by HF __PreTrainedModel__ class
      - Use the custom tokenizer built in the previous notebook
      - Use Trainer API to train the model
-11. **Upload it to Hub** [Notebook]
+11. **Gradient Accumulation - Continual Pre-training** [Notebook](https://gist.github.com/Arunprakash-A/c27ebe06e6c8fbd21263fc54013bbf49)
+     - **Difficulty Level:** Easy
+     - Understand the memory requirement for training and inference
+     - Understand how gradient accumulation overcomes the limited memory      
+12. **Upload it to Hub** [Notebook]
      - Under Preparation
      
 **UPDATE:** Added Hugging Face Notebooks. If you plan to use Transformer Architecture for any task, HF is the way to go! The Transformer module is built on top of Pytorch (and Tensorflow) to do a lot of heavy lifting!
