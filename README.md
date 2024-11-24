@@ -44,7 +44,13 @@
     - Embedding for words
     - Build RNN
     - Train,test, infer
-  
+---
+Please take a look at the [official tutorial series](https://pytorch.org/tutorials/distributed/home.html) if you want to perform distributed training using a multi-GPU or multi-node setup in PyTorch (requires minimal modifications to the existing code). It covers various approaches, including:
+ - Distributed Data-Parallel (DDP)
+ - Fully Sharded Data Parallel (FSDP)
+ - Model, Tenosr and PipeLine parallelism <br>
+Now, let's move on to the Hugging Face library, which further simplifies these training strategies
+---
 6. **Using pre-trained models** [Notebook](https://drive.google.com/file/d/1dAPaHzqLrRWsF4lAq9ydtKAK5F81zlIm/view?usp=sharing)     
      - **Difficulty Level:** Easy
      - AutoTokenizer
@@ -79,7 +85,4 @@
      - **Difficulty Level:** Easy
      - Understand the memory requirement for training and inference
      - Understand how gradient accumulation overcomes the limited memory      
-12. **Upload it to Hub** [Notebook]
-     - Under Preparation
-     
-**UPDATE:** Added Hugging Face Notebooks. If you plan to use Transformer Architecture for any task, HF is the way to go! The Transformer module is built on top of Pytorch (and Tensorflow) to do a lot of heavy lifting!
+
