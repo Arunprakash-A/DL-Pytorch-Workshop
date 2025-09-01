@@ -86,3 +86,7 @@ Now, let's move on to the Hugging Face library, which further simplifies these t
      - Understand the memory requirement for training and inference
      - Understand how gradient accumulation overcomes the limited memory      
 
+---
+CUDA Resources
+---
+Pytorch updated [Cuda Semantics](https://docs.pytorch.org/docs/main/notes/cuda.html) page on Aug 07 2025. If you are using Multiple GPUs, you must read it before starting to write code. Don't assume!
