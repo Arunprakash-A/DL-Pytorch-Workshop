@@ -35,8 +35,11 @@
     - Train and test
     - Transfer learning
     - Image segmentation
-
-
+---
+Update
+ - You can use various learning rate schedulers such as ExponentialLR, CosineAnnealing and so on. You just need to call `scheduler.step()` after `optimizer.step`. Refer to the documentation [here](https://docs.pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate)
+- A slight change in instantiating pre-trained models [Refer](https://www.learnpytorch.io/06_pytorch_transfer_learning/)
+---
 5. **Recurrent Neural Network** [Sequence classification](https://colab.research.google.com/drive/1OAraEdQfr_rhXGeANZ83v5gJ4Kt14aAr?usp=sharing)
     - **Difficulty Level:** Hard for pre-processing part, Medium for model building part
     - torchdata
