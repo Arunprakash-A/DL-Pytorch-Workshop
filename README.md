@@ -49,7 +49,7 @@ Update
     - Train,test, infer
 ---
 Please take a look at the [official tutorial series](https://pytorch.org/tutorials/distributed/home.html) if you want to perform distributed training using a multi-GPU or multi-node setup in PyTorch (requires minimal modifications to the existing code). It covers various approaches, including:
- - Distributed Data-Parallel (DDP)
+ - Distributed Data-Parallel (DDP) [single-node/multi-node](https://github.com/pytorch/examples/blob/main/distributed/ddp-tutorial-series/README.md)
  - Fully Sharded Data Parallel (FSDP)
  - Model, Tenosr and PipeLine parallelism <br>
 Now, let's move on to the Hugging Face library, which further simplifies these training strategies
