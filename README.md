@@ -4,7 +4,12 @@
  - You can access the slide deck that covers various concepts related to Transformers [Here](https://iitm-pod.slides.com/arunprakash_ai/transformers-distilled-hf-workshop-iitmbs)
  - It is recommended to read the slide decks before using the following colab notebooks 
  - Once you get a good grip on the first four modules, you can easily walk through the documentation or other code to build an application. I will keep updating this repository.
- - [Recorded videos](https://drive.google.com/drive/folders/1o6AS8QE0xHpLS99kMlnDfzQp3VIrsQ1p?usp=sharing) 
+ - [Recorded videos](https://drive.google.com/drive/folders/1o6AS8QE0xHpLS99kMlnDfzQp3VIrsQ1p?usp=sharing)
+ - Some recommendations 
+     - Always start with any one of the following optimizers (priority in order): AdamW/Adam/SGD.
+     - PyTorch implements the optimizers in three ways: Forloop (slow), foreach (fast) and fused (faster)
+     - AdamW/Adam/SGD are implemented using a fused kernel and are also stable (extremely important) - [Doc](https://docs.pytorch.org/docs/stable/optim.html#:~:text=We%20have%203,top%20of%20that.)
+       
  ## Colab Notebooks
  1. **The Fuel:** [Tensors](https://colab.research.google.com/drive/179Gv23AcUDCOhHt82msbstQZrbzS6Qn4?usp=sharing)
     - **Difficulty Level:** Easy if you have prior experience using Numpy or TensorFlow
