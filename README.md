@@ -40,7 +40,7 @@
     - Train and test
     - Transfer learning
     - Image segmentation
-    -  Update: Use [TorchVision](https://docs.pytorch.org/vision/stable/index.html), PyTorch native package that includes vision Transformers. 
+    -  Update: [TorchVision](https://docs.pytorch.org/vision/stable/index.html) now includes Transformer based models. 
 ---
 Update
  - You can use various learning rate schedulers such as ExponentialLR, CosineAnnealing and so on. You just need to call `scheduler.step()` after `optimizer.step`. Refer to the documentation [here](https://docs.pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate)
