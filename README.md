@@ -9,6 +9,7 @@
      - Always start with any one of the following optimizers (priority in order): AdamW/Adam/SGD.
      - PyTorch implements the optimizers in three ways: Forloop (slow), foreach (fast) and fused (faster)
      - AdamW/Adam/SGD are implemented using a fused kernel and are also stable (extremely important) - [Doc](https://docs.pytorch.org/docs/stable/optim.html#:~:text=We%20have%203,top%20of%20that.)
+     - If you are looking for a book with recent updates, I highly recommend [Deep Learning with PyTorch, Second Edition (yr 2026)](https://www.manning.com/books/deep-learning-with-pytorch-second-edition)
        
  ## Colab Notebooks
  1. **The Fuel:** [Tensors](https://colab.research.google.com/drive/179Gv23AcUDCOhHt82msbstQZrbzS6Qn4?usp=sharing)
